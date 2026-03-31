@@ -1,0 +1,28 @@
+{
+  "bottomRow": 20,
+  "bottomRowBeforeCollapse": 12,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{PlacementsPageJS.isEmpty()}}",
+  "leftColumn": 0,
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
+  "parentColumnSpace": 77.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 32,
+  "text": "Площадки не найдены.",
+  "textAlign": "LEFT",
+  "textColor": "#6B7280",
+  "topRow": 16,
+  "topRowBeforeCollapse": 8,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "placements_empty",
+  "widgetName": "PlacementsEmptyState"
+}

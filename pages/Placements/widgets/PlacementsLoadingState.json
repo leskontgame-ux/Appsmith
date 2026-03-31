@@ -1,0 +1,28 @@
+{
+  "bottomRow": 12,
+  "bottomRowBeforeCollapse": 12,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{getPlacements.isLoading}}",
+  "leftColumn": 0,
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
+  "parentColumnSpace": 77.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 32,
+  "text": "Загрузка площадок...",
+  "textAlign": "LEFT",
+  "textColor": "#6B7280",
+  "topRow": 8,
+  "topRowBeforeCollapse": 8,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "placements_loading",
+  "widgetName": "PlacementsLoadingState"
+}

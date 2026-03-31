@@ -1,0 +1,20 @@
+{
+  "bottomRow": 7,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 0,
+  "parentColumnSpace": 77.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 32,
+  "text": "Площадки",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "placements_title",
+  "widgetName": "PlacementsTitle"
+}

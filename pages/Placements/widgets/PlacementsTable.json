@@ -1,0 +1,180 @@
+{
+  "bottomRow": 40,
+  "bottomRowBeforeCollapse": 32,
+  "columnOrder": [
+    "placement_key",
+    "clicks",
+    "ctr",
+    "cost",
+    "visits",
+    "bounce_rate",
+    "conversions"
+  ],
+  "columnSizeMap": {
+    "bounce_rate": 140,
+    "clicks": 100,
+    "conversions": 140,
+    "cost": 120,
+    "ctr": 100,
+    "placement_key": 260,
+    "visits": 100
+  },
+  "derivedColumns": {},
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.placement_key.computedValue"
+    },
+    {
+      "key": "primaryColumns.clicks.computedValue"
+    },
+    {
+      "key": "primaryColumns.ctr.computedValue"
+    },
+    {
+      "key": "primaryColumns.cost.computedValue"
+    },
+    {
+      "key": "primaryColumns.visits.computedValue"
+    },
+    {
+      "key": "primaryColumns.bounce_rate.computedValue"
+    },
+    {
+      "key": "primaryColumns.conversions.computedValue"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{!getPlacements.isLoading && !PlacementsPageJS.hasError() && PlacementsPageJS.rows().length > 0}}",
+  "isVisiblePagination": true,
+  "label": "Data",
+  "leftColumn": 0,
+  "originalBottomRow": 32,
+  "originalTopRow": 13,
+  "parentColumnSpace": 77.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "bounce_rate": {
+      "columnType": "number",
+      "computedValue": "{{PlacementsTable.sanitizedTableData.map((currentRow) => ( currentRow.bounce_rate ))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "bounce_rate",
+      "index": 5,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "bounce_rate",
+      "textSize": "PARAGRAPH",
+      "verticalAlignment": "CENTER",
+      "width": 140
+    },
+    "clicks": {
+      "columnType": "number",
+      "computedValue": "{{PlacementsTable.sanitizedTableData.map((currentRow) => ( currentRow.clicks ))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "clicks",
+      "index": 1,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "clicks",
+      "textSize": "PARAGRAPH",
+      "verticalAlignment": "CENTER",
+      "width": 100
+    },
+    "conversions": {
+      "columnType": "number",
+      "computedValue": "{{PlacementsTable.sanitizedTableData.map((currentRow) => ( currentRow.conversions ))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "conversions",
+      "index": 6,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "conversions",
+      "textSize": "PARAGRAPH",
+      "verticalAlignment": "CENTER",
+      "width": 140
+    },
+    "cost": {
+      "columnType": "number",
+      "computedValue": "{{PlacementsTable.sanitizedTableData.map((currentRow) => ( currentRow.cost ))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "cost",
+      "index": 3,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "cost",
+      "textSize": "PARAGRAPH",
+      "verticalAlignment": "CENTER",
+      "width": 120
+    },
+    "ctr": {
+      "columnType": "number",
+      "computedValue": "{{PlacementsTable.sanitizedTableData.map((currentRow) => ( currentRow.ctr ))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "ctr",
+      "index": 2,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "ctr",
+      "textSize": "PARAGRAPH",
+      "verticalAlignment": "CENTER",
+      "width": 100
+    },
+    "placement_key": {
+      "columnType": "text",
+      "computedValue": "{{PlacementsTable.sanitizedTableData.map((currentRow) => ( currentRow.placement_key ))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "placement_key",
+      "index": 0,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "placement_key",
+      "textSize": "PARAGRAPH",
+      "verticalAlignment": "CENTER",
+      "width": 260
+    },
+    "visits": {
+      "columnType": "number",
+      "computedValue": "{{PlacementsTable.sanitizedTableData.map((currentRow) => ( currentRow.visits ))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "visits",
+      "index": 4,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "visits",
+      "textSize": "PARAGRAPH",
+      "verticalAlignment": "CENTER",
+      "width": 100
+    }
+  },
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{PlacementsPageJS.rows()}}",
+  "textSize": "PARAGRAPH",
+  "topRow": 21,
+  "topRowBeforeCollapse": 13,
+  "type": "TABLE_WIDGET",
+  "version": 1,
+  "widgetId": "placements_table",
+  "widgetName": "PlacementsTable"
+}
