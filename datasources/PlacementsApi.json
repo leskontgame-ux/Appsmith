@@ -1,0 +1,23 @@
+{
+  "name": "PlacementsApi",
+  "pluginId": "restapi-plugin",
+  "gitSyncId": "69ab8d41dcef6a0f6314ba39_placements_api",
+  "datasourceConfiguration": {
+    "sshProxyEnabled": false,
+    "properties": [
+      {
+        "key": "isSendSessionEnabled",
+        "value": "Y"
+      },
+      {
+        "key": "sessionSignatureKey",
+        "value": ""
+      }
+    ],
+    "url": "http://localhost:8080",
+    "headers": []
+  },
+  "invalids": [],
+  "isValid": true,
+  "new": true
+}

@@ -1,0 +1,37 @@
+{
+  "pluginType": "API",
+  "pluginId": "restapi-plugin",
+  "gitSyncId": "69ab8d41dcef6a0f6314ba39_get_placements",
+  "unpublishedAction": {
+    "name": "getPlacements",
+    "pageId": "Placements",
+    "userExecutableName": "getPlacements",
+    "datasource": {
+      "name": "PlacementsApi",
+      "pluginId": "restapi-plugin",
+      "id": "PlacementsApi"
+    },
+    "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
+      "paginationType": "NONE",
+      "path": "/api/v1/users/me/rsy-placements",
+      "headers": [],
+      "encodeParamsToggle": true,
+      "queryParameters": [],
+      "body": "",
+      "httpMethod": "GET",
+      "pluginSpecifiedTemplates": [
+        {
+          "value": false
+        }
+      ]
+    },
+    "runBehaviour": "ON_PAGE_LOAD",
+    "dynamicBindingPathList": [],
+    "isValid": true,
+    "invalids": [],
+    "jsonPathKeys": [],
+    "userSetOnLoad": true,
+    "confirmBeforeExecute": false
+  }
+}

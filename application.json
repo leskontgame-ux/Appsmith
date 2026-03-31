@@ -8,6 +8,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Placements",
+      "isDefault": false
     }
   ]
 }
